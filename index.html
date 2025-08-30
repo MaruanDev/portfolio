@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--BOOTSTRAP ICONS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--FIM DO BOOTSTRAP ICONS-->
+    <link rel="stylesheet" href="style.css">
+
+    <script src="menu.js" defer></script>
+    <title>Portfólio Maruan</title>
+  </head>
+  <body>
+    <header>
+  <div class="interface"> 
+    <!-- LOGO -->
+    <h4>Portfólio</h4>
+
+    <!-- MENU CENTRAL -->
+    <nav class="menu-desktop">
+      <ul>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#especialidades">Especialidades</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+      </ul>
+    </nav>
+
+    <!-- BOTÃO CONTATO -->
+    <div class="btn-contato">
+      <a href="https://wa.me/5533999500491">
+        <button>Contato</button>
+      </a>
+    </div> <!--btn-contato-->
+
+    <!-- MENU MOBILE -->
+    <div class="btn-abrir-menu" id="btn-menu">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+      </svg>
+    </div>
+
+    <div class="menu-mobile" id="menu-mobile">
+      <div class="btn-fechar">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+          <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
+        </svg>
+      </div>    
+
+      <nav>
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#especialidades">Especialidades</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="https://wa.me/5533999500491">Contato</a></li>
+        </ul>
+      </nav> 
+    </div> <!--menu-mobile-->
+
+    <div class="overlay-menu" id="overlay-menu"></div>
+  </div> <!--Interface-->
+</header>
+
+            <div class="btn-abrir-menu" id="btn-menu">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+              </svg>
+            </div>
+
+            <div class="menu-mobile" id="menu-mobile">
+            
+              <div class="btn-fechar">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                  <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
+                </svg>
+              </div>    <!--btn-fechar-->   
+            
+              <nav>
+                <ul>
+                  <li><a href="#inicio">Início</a></li>
+                  <li><a href="#especialidades">Especialidades</a></li>
+                  <li><a href="#sobre">Sobre</a></li>
+                  <li><a href="#projetos">Projetos</a></li>
+                  <li><a href="https://wa.me/5533999500491">Contato</a></li>
+                </ul>
+            </nav> 
+           
+            </div> <!--menu-mobile-->
+             <div class="overlay-menu" id="overlay-menu">
+             </div>
+             
+        </div> <!--Interface-->
+        
+    </header>
+
+  <main>
+    <section class="topo-do-site">
+      <div class="interface"> 
+         <div class="flex">
+          <div class="txt-topo-site">
+                <h1>MARUAN</h1>
+                 <h1><span class="destaque">FÉLIX</span></h1>
+                 <h5>Designer Gráfico criativo especializado<br> em
+                   identidade visual e experiências digitais únicas.</p:>
+      </div><!--txt-topo-site-->
+
+          <div class="img-topo-site">
+          <img src="img/icone eu.png"  class="img-efeito" alt="MaruanDev">
+        
+                    </div><!--img-topo-site-->
+              </div><!--flex-->
+       </div><!--interface-->
+    </section><!--topo-do-site-->
+
+    <section class="especialidades" id="especialidades">
+      <div class="interface">
+        
+        <h2 class="titulo">MINHAS <span>ESPECIALIDADES.</span></h2>
+        <div class="flex">
+
+        <div class="especialidades-box">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-palette-fill" viewBox="0 0 16 16">
+          <path d="M12.433 10.07C14.133 10.585 16 11.15 16 8a8 8 0 1 0-8 8c1.996 0 1.826-1.504 1.649-3.08-.124-1.101-.252-2.237.351-2.92.465-.527 1.42-.237 2.433.07M8 5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m4.5 3a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3M5 6.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m.5 6.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3"/>
+          </svg>
+
+           <h3> Design Gráfico  </h3>  
+           <p> Design é minha especialidade. Tenho experiência em criação visual, 
+            branding, identidade visual, desenvolvimento de mascotes, materiais
+             gráficos e artes inteligentes para redes sociais, comunicação digital 
+             e design de aplicações web, sempre unindo criatividade e estratégia para
+              entregar soluções visuais de impacto com marketing estratégico.</p>
+          </div> <!--Especialidades box-->
+
+          <div class="especialidades-box">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-filetype-html" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M14 4.5V11h-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5zm-9.736 7.35v3.999h-.791v-1.714H1.79v1.714H1V11.85h.791v1.626h1.682V11.85h.79Zm2.251.662v3.337h-.794v-3.337H4.588v-.662h3.064v.662zm2.176 3.337v-2.66h.038l.952 2.159h.516l.946-2.16h.038v2.661h.715V11.85h-.8l-1.14 2.596H9.93L8.79 11.85h-.805v3.999zm4.71-.674h1.696v.674H12.61V11.85h.79v3.325Z"/>
+          </svg>
+          
+            <h3> Desenvolvimento Web </h3>  
+             <p>
+              Possuo habilidades em C++ e 
+              Java, criando soluções robustas
+               e eficientes para sistemas e desenvolvimento web. Além disso, sou 
+               especializado em Desenvolvimento Web, com a criação de websites 
+               dinâmicos e responsivos utilizando HTML e CSS. Meu foco é garantir 
+               interfaces de usuário funcionais e atraentes, proporcionando uma 
+               experiência otimizada em diversos dispositivos e navegadores.
+             </p>
+            </div> <!--Especialidades box-->
+  
+          <div class="especialidades-box"> 
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill-add" viewBox="0 0 16 16">
+              <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7m.5-5v1h1a.5.5 0 0 1 0 1h-1v1a.5.5 0 0 1-1 0v-1h-1a.5.5 0 0 1 0-1h1v-1a.5.5 0 0 1 1 0m-2-6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+              <path d="M2 13c0 1 1 1 1 1h5.256A4.5 4.5 0 0 1 8 12.5a4.5 4.5 0 0 1 1.544-3.393Q8.844 9.002 8 9c-5 0-6 3-6 4"/>
+            </svg>
+            <h3>  Trabalho em equipe </h3>  
+             <p>Tenho experiência em trabalhar de forma colaborativa com equipes, combinando minhas habilidades técnicas 
+              e comunicativas para atingir objetivos comuns. Acredito na importância da troca de ideias e na busca
+               constante por aprendizado, sempre focando na melhoria contínua dos processos. Meu compromisso é garantir 
+               que os projetos sejam entregues com qualidade, dentro dos prazos e de acordo com as expectativas.
+
+             </p>
+            </div> <!--Especialidades box-->
+       </div><!--flex-->
+     </div><!--interface-->
+    </section><!--especialidades-->
+
+      <section class="sobre" id="sobre">
+      <div class="interface"> 
+      <div class="flex">
+      <div class="btn-social">
+        
+            <img src="img/Next.png" alt="logo">
+            <img src="img/Norte.png" alt="logo">
+            <img src="img/Casi.png" alt="logo">
+
+      </div>  <!--btn-->
+  
+      <div class="txt-sobre">
+
+      <h2> MUITO PRAZER, <span>SOU MARUAN FÉLIX DE FARIAS</span></h2>
+      <br>
+      <h5>Muito prazer! Sou Maruan Félix de Farias, Designer em formação, com experiência em criação visual e comunicação.
+        Desde 2025, atuo como Designer na Next Step – Empresa Júnior da UFVJM,
+        desenvolvendo projetos de identidade visual, materiais gráficos e comunicação 
+        digital, sempre unindo criatividade e estratégia. Essa experiência me permitiu
+        ganhar destaque na área, assumindo o cargo de Líder de Comunicação no Núcleo 
+        Norte, onde trabalho com grandes equipes multidisciplinares e projetos
+        estratégicos de design.
+      </h5>
+      <br>
+
+      <h5>Minha trajetória na tecnologia começou no IFNMG, com 
+      
+       formação técnica em Informática, e se expandiu ao ingressar 
+       na graduação em Sistemas de Informação na UFVJM, em Diamantina.
+       Também faço parte do Centro Acadêmico do curso, no qual desenvolvi 
+       toda a identidade visual. Essa base tecnológica ampliou minha visão 
+       criativa, permitindo que eu me encontrasse na na área, desenvolvendo soluções
+       inovadoras e estratégicas.
+
+       Busco constantemente aprender, explorar novas tendências e criar
+       experiências visuais que comuniquem de forma clara, envolvente e 
+       impactante.
+      </h5>
+
+     </div>  <!--txtsobre-->
+      </div> <!--flex-->
+      </div> <!--Interface-->
+      </section> <!--sobre-->
+
+      <section class="portfolio" id="projetos">
+       <div class="interface">
+        <h2 class="titulo">MEU <span>PORTFÓLIO.</span></h2> 
+        
+        <h2 class="titulo1"> Projetos Designer </h2>
+
+        <div class="flex">
+           <div class="img-port" style="background-image: url(img/NEXT\ STEP.png);">
+             <div class="overlay"> Next Step (Mascote/Artes Instagram)  </div>
+           </div>
+          
+           <div class="img-port" style="background-image: url(img/Nucleo\ Norte.png);">
+           <div class="overlay"> Núcleo Norte (Artes para Instagram) </div>
+          </div>
+
+           <div class="img-port" style="background-image: url(img/CENTRO.png);">
+           <div class="overlay"> CASI (IDV/Artes para Instagram) </div>
+          </div>
+
+          </div><!--flex-->
+       </div><!--Interface-->
+
+
+        <h2 class="titulo1"> Projetos Desenvolvedor </h2>
+
+        <div class="flex">
+
+           <div class="img-port" style="background-image: url(img/Trem\ Aqui.png);">
+             <div class="overlay"> Site TremAqui!(Html/Css/JavaScript)  </div>
+           </div>
+          
+           <div class="img-port" style="background-image: url(img/Projeto\ Cinema\ \(Java\).png);">
+           <div class="overlay">Software Cinema(Java/Banco de Dados) </div>
+          </div>
+
+           <div class="img-port" style="background-image: url(img/Jogo\ da\ velha.png);">
+           <div class="overlay">Jogo da Velha(Html/Css/JavaScript) </div>
+          </div>
+
+          </div><!--flex-->
+
+
+
+
+
+
+      </section><!--portfolio-->
+   
+<footer>
+  <div class="footer-container">
+    
+    <!-- Email alinhado à esquerda -->
+    <div class="footer-email">
+      <a href="mailto:maruanfelixdefarias@gmail.com">
+        <i class="bi bi-envelope"></i> maruanfelixdefarias@gmail.com
+      </a>
+    </div>
+
+    <!-- Ícones alinhados à direita -->
+    <div class="footer-socials">
+      <a href="mailto:maruanfelixdefarias@gmail.com"><img src="img/o-email.png" alt="E-mail"></a>
+      <a href="https://www.linkedin.com/in/maruanfelix/"><img src="img/linkedin.png" alt="LinkedIn"></a>
+      <a href="https://www.instagram.com/maruandz7/"><img src="img/instagram.png" alt="Instagram"></a>
+    </div>
+
+  </div>
+</footer>
+  </main>
+
+  </body>
+</html>
